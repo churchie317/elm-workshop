@@ -27,7 +27,7 @@ main =
                 [ li []
                     [ span [ class "star-count" ] [ text (toString model.result.stars) ]
                     , a [ href ("https://www.github.com/" ++ model.result.name) ]
-                        [ text "lorem ipsum" ]
+                        [ text model.result.name ]
                     ]
                 ]
             ]
